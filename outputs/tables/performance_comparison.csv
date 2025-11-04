@@ -1,0 +1,4 @@
+Portfolio,Return,Volatility,Sharpe
+Max Sharpe,0.16391,0.141363,1.018019
+Equal Weight,0.140527,0.137292,0.877889
+Single Asset (MSFT),0.236824,0.26954,0.804422
