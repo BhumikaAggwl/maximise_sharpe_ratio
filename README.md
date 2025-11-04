@@ -1,4 +1,4 @@
-# Portfolio Optimization — Maximizing Sharpe Ratio (Long-only)
+# Portfolio Optimization — Maximizing Sharpe Ratio 
 
 This project builds a full workflow to **maximize Sharpe ratio** under standard Markowitz assumptions with **long-only** weights and a **full investment** constraint.
 
