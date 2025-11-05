@@ -23,16 +23,17 @@ maximize_w (wᵀ μ − r_f) / sqrt(wᵀ Σ w)
 subject to ∑ wᵢ = 1, wᵢ ≥ 0
 
 sql
-Copy code
+```bash
 
 **Analytical tangency (unconstrained, validation only)**  
 If shorting allowed and only equality constraint, tangency direction is:
 w* ∝ Σ⁻¹ (μ − r_f 1)
-
+```
 pgsql
-Copy code
-We normalize to sum to one.
 
+```bash
+We normalize to sum to one.
+```
 ## What’s included
 
 - Data: from Yahoo Finance via `yfinance` (if available). If not, uses a **synthetic GBM fallback** so everything still runs offline.
