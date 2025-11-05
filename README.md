@@ -93,13 +93,15 @@ Copy code
 
 ---
 
-```bash
+
 # requirements.txt
 
-```txt
-```
+
+``` bash
 numpy>=1.23
 pandas>=1.5
 matplotlib>=3.7
 scipy>=1.10
 yfinance>=0.2.36
+
+```
