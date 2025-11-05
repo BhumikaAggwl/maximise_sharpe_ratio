@@ -50,7 +50,8 @@ We normalize to sum to one.
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-
+```
+```bash
 # 2) Run end-to-end
 python scripts/run_end_to_end.py \
   --tickers AAPL MSFT TLT GLD \
@@ -59,8 +60,9 @@ python scripts/run_end_to_end.py \
   --risk_free 0.02 \
   --return_type log \
   --trading_days 252
-Outputs:
-
+```
+# Outputs:
+```bash
 outputs/tables/optimal_weights.csv
 
 outputs/tables/performance_comparison.csv
@@ -72,8 +74,10 @@ outputs/figures/allocation_pie.png
 outputs/figures/sensitivity_rf.png
 
 outputs/figures/sensitivity_shrinkage.png
+```
 
-Notes
+# Notes
+```bash
 If you want to allow shorting, set long_only=False in the code paths.
 
 For robust stats, consider:
@@ -83,15 +87,17 @@ Return shrinkage (already included demo)
 Covariance shrinkage (e.g., Ledoit–Wolf)
 
 Rolling windows / out-of-sample validation.
-
+```
 yaml
 Copy code
 
 ---
 
+```bash
 # requirements.txt
 
 ```txt
+```
 numpy>=1.23
 pandas>=1.5
 matplotlib>=3.7
