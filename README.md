@@ -88,8 +88,6 @@ Covariance shrinkage (e.g., Ledoit–Wolf)
 
 Rolling windows / out-of-sample validation.
 ```
-yaml
-Copy code
 
 ---
 
